@@ -1,14 +1,34 @@
 1.
+AMAT = hit time + miss rate * miss penalty
+cycle time = 3 ns
+AMAT = (.90 hits / instr * 3 ns) + (0.10 misses / instr * (30 clock cycles * 3 ns))
+AMAT = 9 + 2.7 = 11.7 ns
 
 2.
 Single association
 	
 3.
+inst miss cycles = miss rate * miss penalty
+inst miss cycles = .011 * 100 = 1.1 cycles
+data miss cycles = miss rate * miss penalty * instr frequency
+data miss cycles = .03 * 100 * .3 = 0.9
+total miss cycles = 1.1 + 0.9 = 2.0
+CPI speed with stalls = 2 + 2.0 = 4.0
+So a processor with a perfect cache and zero misses would run twice as fast as a processor with these misses.
 
 4.
 a.
+MTBF = MTTF + MTTR
+MTBF = 300 days + 2 days = 302 days
+
 b.
+Availability = MTBF / (MTBF + MTTR)
+Availability = 0.993
+
 c.
+As MTTR approaches zero, the availability gets closer and closer to 1, or 100%.
+
 d.
+As MTTR gets bigger, the availability will get smaller and smaller and eventually approach zero.
 
 5.
