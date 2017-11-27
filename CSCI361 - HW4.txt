@@ -1,8 +1,8 @@
 1.
 AMAT = hit time + miss rate * miss penalty
 cycle time = 3 ns
-AMAT = (.90 hits / instr * 3 ns) + (0.10 misses / instr * (30 clock cycles * 3 ns))
-AMAT = 9 + 2.7 = 11.7 ns
+AMAT = 3 ns + (0.10 misses / instr * (30 clock cycles * 3 ns))
+AMAT = 3 ns + 9 ns = 12 ns
 
 2.
 Single association
@@ -32,3 +32,5 @@ d.
 As MTTR gets bigger, the availability will get smaller and smaller and eventually approach zero.
 
 5.
+Yes, there is an error in parity bit p8.
+The corrected value is: 0011 0110 0101
