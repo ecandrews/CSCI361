@@ -7,7 +7,7 @@ part_three:
 	MOV X6, #7 	// g is here
 	MOV X7, #7 	// g multiplier
 	MOV X8, #0 	// g iterator
-	MOV X12, #64 	// offset
+	MOV X12, #8 	// offset
 	B .make_n
 
 .make_n:
@@ -38,18 +38,45 @@ part_three:
 	
 .generate_num:
 	MUL X10, X6, X0 	// g * time
-	MOV X11, X10 MOD X3 	// g * time mod n, X11 RN
-	B .store_num
+	CMP X10, X3			//if (g * time) <= n
+	BLE .store_num		//store num
+	B .mod				//otherwise (g*time) mod n
+
+.mod:
+	SUB X10, X10, X3	//subtract n from (g*time)
+	CMP X10, X3			//if (g * time) <= n
+	BLE .store_num		//store the num
+	B .mod				//otherwise repeat
 	
 .store_num:
 	MUL X13, X9, X12 	// X13 is offset
-	STR X11, [X13, X2]
+	STR X10, [X2, X13]
 	CMP X9, X1
-	BEQ .done
-	MOV X0, X11
+	BEQ .sort_start
+	MOV X0, X10
 	ADD X9, X9, #1 	// add one to iterator
 	B .generate_num	
 	
+.sort_start:
+	MOV X5, #-1 	//make outer iterator
+	MOV X8, #0 		//make inner iterator
+	MOV X3, #0 		//make min variable
+	MOV X4, #0 		//make min index variable
+	B .outerloop
+
+.outerloop:
+	ADD X5, X5, #1
+	ADD x8, X5, #1
+
+	CMP X5, X1
+
+.innerloop:
+	ADD X8, X8, #1
+
+
+
+	CMP X8, X1
+
 .done:
-	MOV X30, X2 
+	MOV X0, X2
 	br X30
