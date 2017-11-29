@@ -5,64 +5,64 @@
 <stringAttribute key="ANDROID_APP_DIR" value=""/>
 <stringAttribute key="ANDROID_PROCESS_NAME" value=""/>
 <mapAttribute key="AverageDurationTracker">
-<mapEntry key="*Fetching Data Model" value="129161"/>
+<mapEntry key="*Fetching Data Model" value="165706"/>
 <mapEntry key="*FunctionLoader" value="52448831"/>
-<mapEntry key="*list global low level symbols" value="1095572"/>
+<mapEntry key="*list global low level symbols" value="471641"/>
 <mapEntry key="*loading memory from target" value="2057077"/>
 <mapEntry key="*loading values from target" value="1639710"/>
 <mapEntry key="*updating expressions" value="145039"/>
 <mapEntry key="*updating local_variables" value="545385"/>
-<mapEntry key="*updating registers" value="33999114"/>
+<mapEntry key="*updating registers" value="34169706"/>
 <mapEntry key="*updating variables" value="126341"/>
-<mapEntry key="AddEventObserver" value="912959"/>
+<mapEntry key="AddEventObserver" value="933293"/>
 <mapEntry key="ClearEngineCaches" value="962216"/>
 <mapEntry key="Evaluate" value="1119665"/>
 <mapEntry key="ListRegimeWarningsCommand" value="249393"/>
 <mapEntry key="Retrieving globals list" value="14755887"/>
 <mapEntry key="SourceToAddress" value="160716"/>
-<mapEntry key="areCachesAvailable" value="163096"/>
+<mapEntry key="areCachesAvailable" value="147210"/>
 <mapEntry key="backtrace" value="5248831"/>
-<mapEntry key="break" value="1336669"/>
-<mapEntry key="compute execution mode" value="258578"/>
-<mapEntry key="continue" value="14878357"/>
+<mapEntry key="break" value="1532295"/>
+<mapEntry key="compute execution mode" value="212128"/>
+<mapEntry key="continue" value="8386017"/>
 <mapEntry key="core" value="1347453"/>
 <mapEntry key="disassemble" value="5902620"/>
 <mapEntry key="evaluate" value="4868607"/>
 <mapEntry key="evaluate address" value="525883"/>
 <mapEntry key="finish" value="15271551"/>
 <mapEntry key="get byte order" value="336167"/>
-<mapEntry key="get capabilities" value="94377"/>
+<mapEntry key="get capabilities" value="91933"/>
 <mapEntry key="get cwd" value="150441"/>
-<mapEntry key="get execution addresss" value="237924"/>
-<mapEntry key="get source lines" value="528746"/>
+<mapEntry key="get execution addresss" value="200918"/>
+<mapEntry key="get source lines" value="258593"/>
 <mapEntry key="get substitute paths" value="150100"/>
-<mapEntry key="getValidEncodings" value="198794"/>
-<mapEntry key="initialize command help" value="14748000"/>
+<mapEntry key="getValidEncodings" value="156332"/>
+<mapEntry key="initialize command help" value="14120036"/>
 <mapEntry key="interrupt" value="4001374495"/>
-<mapEntry key="list breakpoint options" value="105070"/>
-<mapEntry key="list breakpoints" value="216310"/>
-<mapEntry key="list instruction sets" value="108771"/>
-<mapEntry key="list signals" value="1445284"/>
+<mapEntry key="list breakpoint options" value="118665"/>
+<mapEntry key="list breakpoints" value="182960"/>
+<mapEntry key="list instruction sets" value="126004"/>
+<mapEntry key="list signals" value="1370260"/>
 <mapEntry key="list source files" value="234595"/>
 <mapEntry key="list translations" value="235411"/>
-<mapEntry key="list watchpoint options" value="103410"/>
-<mapEntry key="list watchpoints" value="203978"/>
-<mapEntry key="loadfile" value="15043771"/>
+<mapEntry key="list watchpoint options" value="123185"/>
+<mapEntry key="list watchpoints" value="245920"/>
+<mapEntry key="loadfile" value="15163366"/>
 <mapEntry key="next" value="13154166"/>
 <mapEntry key="reload-symbol-file" value="13433477"/>
 <mapEntry key="remove" value="1181460"/>
-<mapEntry key="set CWD" value="1708526"/>
-<mapEntry key="set breakpoint properties" value="1611476"/>
-<mapEntry key="set debug-from" value="361177"/>
-<mapEntry key="set substitute-path" value="1549447"/>
-<mapEntry key="source use_model_semihosting.ds" value="1729837"/>
-<mapEntry key="start" value="23058684"/>
+<mapEntry key="set CWD" value="1358089"/>
+<mapEntry key="set breakpoint properties" value="1847023"/>
+<mapEntry key="set debug-from" value="390043"/>
+<mapEntry key="set substitute-path" value="1498532"/>
+<mapEntry key="source use_model_semihosting.ds" value="1640814"/>
+<mapEntry key="start" value="21752291"/>
 <mapEntry key="step" value="15356668"/>
 <mapEntry key="toggleBreakpoint" value="3412200"/>
 <mapEntry key="translate address" value="11529558"/>
 <mapEntry key="updateBreakpointLocation" value="4213471"/>
 <mapEntry key="updating MMU tables" value="27706704"/>
-<mapEntry key="waitForTargetToStop" value="3562521"/>
+<mapEntry key="waitForTargetToStop" value="4668738"/>
 </mapAttribute>
 <intAttribute key="DEBUG_TAB..RESOURCES.COUNT" value="0"/>
 <stringAttribute key="DISABLE_EXTENDED_MODE" value="true"/>

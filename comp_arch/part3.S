@@ -58,24 +58,49 @@ part_three:
 	B .generate_num	
 	
 .sort_start:
-	MOV X5, #-1 	//make outer iterator
-	MOV X8, #0 		//make inner iterator
+	MOV X5, #-1 	//make outerIter
+	MOV X8, #0 		//make innerIter
 	MOV X3, #0 		//make min variable
-	MOV X4, #0 		//make min index variable
-	B .outerloop
+	MOV X4, #0 		//make minIndex variable
+	B .outer_loop
 
-.outerloop:
-	ADD X5, X5, #1
-	ADD x8, X5, #1
+.outer_loop:
+	ADD X5, X5, #1		//iterate outerIter
+	CMP X5, X1			//if outerIter == array.length
+	BEQ .done			//finish
+						//otherwise
+	MOV X8, X5			//set innerIter to outterIter
+	MUL X13, X5, X12	//get offset
+	LDR X3, [X2, X13] 	//set min to array value at outer loop index
+	MOV X4, X5			//set minIndex to outerIter
+	B .inner_loop
 
-	CMP X5, X1
+.inner_loop:
+	ADD X8, X8, #1		//iterate innerIter
+	CMP X8, X1			//if innerIterr == array.length
+	BEQ .outer_loop2	//go to outer_loop2
+						//otherwise
+	MUL X13, X8, X12	//get offset
+	LDR X6, [X2, X13]	//get value at array[innerIter]
+	CMP X6, X3			//if (array[j] < min )
+	BLT .new_min		//set new min
+						//otherwise
+	B .inner_loop		//loop
 
-.innerloop:
-	ADD X8, X8, #1
+.outer_loop2:
 
+	MUL X13, X5, X12	//get offset for outerIter
+	LDUR X6 [X2, X13]	//get value at array[outerIter]
+	MUL X13, X4, X12	//get offset for minIndex
+	STR X6 [X2, X13]	//store val at array[outerIter] in array[minIndex]
+	MUL X13, X5, X12	//get offset for outerIter
+	STR X3 [X2, X13]	//store val at array[outerIter] to min
+	B .outer_loop
 
-
-	CMP X8, X1
+.new_min:
+	MOV X3, X6			//set min to newly found min
+	MOV X4, X8			//set min index to innerIter
+	B .inner_loop		//resume inner_loop
 
 .done:
 	MOV X0, X2
