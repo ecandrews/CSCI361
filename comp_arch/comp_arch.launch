@@ -5,64 +5,64 @@
 <stringAttribute key="ANDROID_APP_DIR" value=""/>
 <stringAttribute key="ANDROID_PROCESS_NAME" value=""/>
 <mapAttribute key="AverageDurationTracker">
-<mapEntry key="*Fetching Data Model" value="165706"/>
+<mapEntry key="*Fetching Data Model" value="168731"/>
 <mapEntry key="*FunctionLoader" value="52448831"/>
-<mapEntry key="*list global low level symbols" value="471641"/>
-<mapEntry key="*loading memory from target" value="2057077"/>
-<mapEntry key="*loading values from target" value="1639710"/>
+<mapEntry key="*list global low level symbols" value="398924"/>
+<mapEntry key="*loading memory from target" value="3919899"/>
+<mapEntry key="*loading values from target" value="1715147"/>
 <mapEntry key="*updating expressions" value="145039"/>
 <mapEntry key="*updating local_variables" value="545385"/>
-<mapEntry key="*updating registers" value="34169706"/>
-<mapEntry key="*updating variables" value="126341"/>
-<mapEntry key="AddEventObserver" value="933293"/>
+<mapEntry key="*updating registers" value="32783644"/>
+<mapEntry key="*updating variables" value="589102"/>
+<mapEntry key="AddEventObserver" value="975623"/>
 <mapEntry key="ClearEngineCaches" value="962216"/>
-<mapEntry key="Evaluate" value="1119665"/>
+<mapEntry key="Evaluate" value="2956509"/>
 <mapEntry key="ListRegimeWarningsCommand" value="249393"/>
-<mapEntry key="Retrieving globals list" value="14755887"/>
+<mapEntry key="Retrieving globals list" value="14613764"/>
 <mapEntry key="SourceToAddress" value="160716"/>
-<mapEntry key="areCachesAvailable" value="147210"/>
+<mapEntry key="areCachesAvailable" value="157671"/>
 <mapEntry key="backtrace" value="5248831"/>
-<mapEntry key="break" value="1532295"/>
-<mapEntry key="compute execution mode" value="212128"/>
-<mapEntry key="continue" value="8386017"/>
+<mapEntry key="break" value="1952503"/>
+<mapEntry key="compute execution mode" value="229761"/>
+<mapEntry key="continue" value="8630337"/>
 <mapEntry key="core" value="1347453"/>
 <mapEntry key="disassemble" value="5902620"/>
 <mapEntry key="evaluate" value="4868607"/>
 <mapEntry key="evaluate address" value="525883"/>
 <mapEntry key="finish" value="15271551"/>
-<mapEntry key="get byte order" value="336167"/>
-<mapEntry key="get capabilities" value="91933"/>
+<mapEntry key="get byte order" value="413899"/>
+<mapEntry key="get capabilities" value="52700"/>
 <mapEntry key="get cwd" value="150441"/>
-<mapEntry key="get execution addresss" value="200918"/>
-<mapEntry key="get source lines" value="258593"/>
+<mapEntry key="get execution addresss" value="351718"/>
+<mapEntry key="get source lines" value="2337401"/>
 <mapEntry key="get substitute paths" value="150100"/>
-<mapEntry key="getValidEncodings" value="156332"/>
-<mapEntry key="initialize command help" value="14120036"/>
+<mapEntry key="getValidEncodings" value="125428"/>
+<mapEntry key="initialize command help" value="13376915"/>
 <mapEntry key="interrupt" value="4001374495"/>
-<mapEntry key="list breakpoint options" value="118665"/>
-<mapEntry key="list breakpoints" value="182960"/>
-<mapEntry key="list instruction sets" value="126004"/>
-<mapEntry key="list signals" value="1370260"/>
+<mapEntry key="list breakpoint options" value="91779"/>
+<mapEntry key="list breakpoints" value="180596"/>
+<mapEntry key="list instruction sets" value="151383"/>
+<mapEntry key="list signals" value="786651"/>
 <mapEntry key="list source files" value="234595"/>
 <mapEntry key="list translations" value="235411"/>
-<mapEntry key="list watchpoint options" value="123185"/>
-<mapEntry key="list watchpoints" value="245920"/>
-<mapEntry key="loadfile" value="15163366"/>
+<mapEntry key="list watchpoint options" value="86286"/>
+<mapEntry key="list watchpoints" value="107101"/>
+<mapEntry key="loadfile" value="15863397"/>
 <mapEntry key="next" value="13154166"/>
-<mapEntry key="reload-symbol-file" value="13433477"/>
-<mapEntry key="remove" value="1181460"/>
-<mapEntry key="set CWD" value="1358089"/>
-<mapEntry key="set breakpoint properties" value="1847023"/>
-<mapEntry key="set debug-from" value="390043"/>
-<mapEntry key="set substitute-path" value="1498532"/>
-<mapEntry key="source use_model_semihosting.ds" value="1640814"/>
-<mapEntry key="start" value="21752291"/>
-<mapEntry key="step" value="15356668"/>
-<mapEntry key="toggleBreakpoint" value="3412200"/>
+<mapEntry key="reload-symbol-file" value="9943568"/>
+<mapEntry key="remove" value="1193704"/>
+<mapEntry key="set CWD" value="1307999"/>
+<mapEntry key="set breakpoint properties" value="2385919"/>
+<mapEntry key="set debug-from" value="399424"/>
+<mapEntry key="set substitute-path" value="65777057"/>
+<mapEntry key="source use_model_semihosting.ds" value="1624707"/>
+<mapEntry key="start" value="25587393"/>
+<mapEntry key="step" value="16719507"/>
+<mapEntry key="toggleBreakpoint" value="2655017"/>
 <mapEntry key="translate address" value="11529558"/>
-<mapEntry key="updateBreakpointLocation" value="4213471"/>
+<mapEntry key="updateBreakpointLocation" value="1805922"/>
 <mapEntry key="updating MMU tables" value="27706704"/>
-<mapEntry key="waitForTargetToStop" value="4668738"/>
+<mapEntry key="waitForTargetToStop" value="3115612"/>
 </mapAttribute>
 <intAttribute key="DEBUG_TAB..RESOURCES.COUNT" value="0"/>
 <stringAttribute key="DISABLE_EXTENDED_MODE" value="true"/>
@@ -84,32 +84,38 @@
 <stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.TYPE" value="APPLICATION_ON_TARGET"/>
 <stringAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.1.VALUE" value=""/>
 <intAttribute key="FILES.DEBUG_RESIDENT_APP.RESOURCES.COUNT" value="2"/>
-<listAttribute key="FILES.DOWNLOAD_AND_DEBUG"/>
+<listAttribute key="FILES.DOWNLOAD_AND_DEBUG">
+<listEntry value="ON_DEMAND_LOAD"/>
+<listEntry value="ALSO_LOAD_SYMBOLS"/>
+</listAttribute>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.TYPE" value="TARGET_DOWNLOAD_DIR"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.VALUE" value=""/>
 <intAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.COUNT" value="3"/>
-<listAttribute key="FILES.DOWNLOAD_DEBUG"/>
+<listAttribute key="FILES.DOWNLOAD_DEBUG">
+<listEntry value="ON_DEMAND_LOAD"/>
+<listEntry value="ALSO_LOAD_SYMBOLS"/>
+</listAttribute>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.TYPE" value="TARGET_WORKING_DIR"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.TYPE" value="TARGET_DOWNLOAD_DIR"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.VALUE" value=""/>
 <intAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.COUNT" value="3"/>
 <intAttribute key="FILES.DOWNLOAD_DEBUG_ANDROID.RESOURCES.COUNT" value="0"/>
@@ -149,6 +155,113 @@
 <booleanAttribute key="RSE_USE_HOSTNAME" value="true"/>
 <stringAttribute key="TCP_DISABLE_EXTENDED_MODE" value="true"/>
 <booleanAttribute key="TCP_KILL_ON_EXIT" value="false"/>
+<listAttribute key="TREE_NODE_PROPERTIES:debugger.view.NewRegisterView">
+<listEntry value="NODE CACHE VERSION 1"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X0"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X1"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X2"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X3"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X4"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X15"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X20"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X24"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X5"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X6"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X7"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X8"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X9"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X10"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X11"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X12"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X13"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X14"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X16"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X17"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X18"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X19"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X21"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X22"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X23"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X29"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+</listAttribute>
 <listAttribute key="TREE_NODE_PROPERTIES:debugger.view.VariableTreeView">
 <listEntry value="NODE CACHE VERSION 1"/>
 <listEntry value="LOCALS:Locals:VALUE:C:/Users/c27t438/Documents/DS-5 Workspace/comp_arch/main.c::main::sorted"/>
@@ -159,7 +272,7 @@
 <booleanAttribute key="VFS_ENABLED" value="false"/>
 <stringAttribute key="VFS_LOCAL_DIR" value="${workspace_loc}"/>
 <stringAttribute key="VFS_REMOTE_MOUNT" value="/writeable"/>
-<stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080001338&quot; debugFile=&quot;C:/Users/c27t438/Documents/workspace/CSCI361/comp_arch/part2.S&quot; hostFile=&quot;C:\Users\c27t438\Documents\workspace\CSCI361\comp_arch\part2.S&quot; line=&quot;12&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x00000000800012FC&quot; debugFile=&quot;C:/Users/c27t438/Documents/workspace/CSCI361/comp_arch/part2.S&quot; hostFile=&quot;C:\Users\c27t438\Documents\workspace\CSCI361\comp_arch\part2.S&quot; line=&quot;12&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; core_list=&quot;&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x00000000800012D8&quot; debugFile=&quot;C:/Users/c27t438/Documents/workspace/CSCI361/comp_arch/main.c&quot; hostFile=&quot;C:\Users\c27t438\Documents\workspace\CSCI361\comp_arch\main.c&quot; line=&quot;41&quot; function=&quot;main&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x00000000800012E4&quot; debugFile=&quot;C:/Users/c27t438/Documents/workspace/CSCI361/comp_arch/main.c&quot; hostFile=&quot;C:\Users\c27t438\Documents\workspace\CSCI361\comp_arch\main.c&quot; line=&quot;41&quot; function=&quot;main&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
+<stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
 <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.DisassemblyView.addresses">
 <listEntry value=""/>
 <listEntry value="EL3:0x0000000080001464"/>
@@ -180,6 +293,7 @@
 </listAttribute>
 <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.MemoryView.addresses">
 <listEntry value=""/>
+<listEntry value="$AARCH64::$Core::$X0"/>
 <listEntry value="$AARCH64::$Core::$X2"/>
 <listEntry value="$AARCH64::$Core::$X2"/>
 <listEntry value="$AARCH64::$Core::$X2"/>
@@ -190,6 +304,7 @@
 </listAttribute>
 <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.MemoryView.ranges">
 <listEntry value=""/>
+<listEntry value="sizeof($AARCH64::$Core::$X0)"/>
 <listEntry value="1024"/>
 <listEntry value="sizeof(69)"/>
 <listEntry value="sizeof($AARCH64::$Core::$X2)"/>
@@ -231,7 +346,7 @@
 <mapAttribute key="debugger.view.NewRegisterView_registerSets"/>
 <stringAttribute key="debugger.view.StackView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;49&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;90&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;45&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;42&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;50&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;37&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;62&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;53&#9;-1&#9;true"/>
 <listAttribute key="debugger.view.TraceView:TRACE_EXPORT_FILTERS"/>
-<stringAttribute key="debugger.view.VariableTreeView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;149&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;90&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;95&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;42&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;50&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;37&#9;-1&#9;true&#9;6&#9;true&#9;false&#9;147&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;53&#9;-1&#9;true"/>
+<stringAttribute key="debugger.view.VariableTreeView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;149&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;90&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;143&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;99&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;50&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;37&#9;-1&#9;true&#9;6&#9;true&#9;false&#9;147&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;53&#9;-1&#9;true"/>
 <listAttribute key="debugger.view.VariableTreeView:USER_ADDED_FILE_STATICS"/>
 <listAttribute key="debugger.view.VariableTreeView:USER_ADDED_GLOBALS"/>
 <booleanAttribute key="debugger.view.expression.DrawAsHex" value="false"/>

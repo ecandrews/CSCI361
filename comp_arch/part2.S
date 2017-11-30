@@ -18,7 +18,7 @@ binary_search:
 	BGT .not_found
 
 	B .get_mid
-	MOV X18, #64 	// offset by 64
+	MOV X18, #8 	// offset by 64
 	MUL X18, X15, X18 	// multiply midpoint by 64
 	LDR X17, [X0, X18]
 
@@ -34,7 +34,7 @@ binary_search:
 
 .not_found:
 	MOV X21, #-1
-	MOV X2, X21
+	MOV X0, X21
 	B .exit
 
 .get_mid: 	// calculate midpoint

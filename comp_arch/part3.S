@@ -1,10 +1,10 @@
 	.globl part_three
 part_three:
-	// random number generator to populate an array, then s o r t	
-	MOV X3, #2	// n is here
+	// random number generator to populate an array, then sort
+	MOV X3, #2	// n
 	MOV X4, #2 	// n multiplier
 	MOV X5, #0 	// n iterator
-	MOV X6, #7 	// g is here
+	MOV X6, #7 	// g
 	MOV X7, #7 	// g multiplier
 	MOV X8, #0 	// g iterator
 	MOV X12, #8 	// offset
@@ -62,6 +62,7 @@ part_three:
 	MOV X8, #0 		//make innerIter
 	MOV X3, #0 		//make min variable
 	MOV X4, #0 		//make minIndex variable
+	ADD X1, X1, #1  // add one to array length
 	B .outer_loop
 
 .outer_loop:
@@ -90,11 +91,11 @@ part_three:
 .outer_loop2:
 
 	MUL X13, X5, X12	//get offset for outerIter
-	LDUR X6 [X2, X13]	//get value at array[outerIter]
+	LDR X6, [X2, X13]	//get value at array[outerIter]
 	MUL X13, X4, X12	//get offset for minIndex
-	STR X6 [X2, X13]	//store val at array[outerIter] in array[minIndex]
+	STR X6, [X2, X13]	//store val at array[outerIter] in array[minIndex]
 	MUL X13, X5, X12	//get offset for outerIter
-	STR X3 [X2, X13]	//store val at array[outerIter] to min
+	STR X3, [X2, X13]	//store val at array[outerIter] to min
 	B .outer_loop
 
 .new_min:
