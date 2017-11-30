@@ -8,7 +8,7 @@ binary_search:
 
 	SUB X13, X11, X12
 
-	CMP X13, #15 	// if negative, start <= end
+	CNMP X13, #15 	// if negative, start <= end
 	BGE .start_while
 
 .start_while: 	// start of the while loop
