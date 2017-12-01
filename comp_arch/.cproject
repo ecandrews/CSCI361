@@ -16,10 +16,17 @@
 					<folderInfo id="com.arm.toolchain.v6.2049397746.2144379090" name="/" resourcePath="">
 						<toolChain id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.toolchain.var.gcc-6.3.1-aarch64-elf.387431726" name="GCC 6.3.1 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.toolchain.var.gcc-6.3.1-aarch64-elf">
 							<targetPlatform id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.toolchain.var.gcc-6.3.1-aarch64-elf.387431726.1586147447" name=""/>
-							<builder id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.target.builder.122295211" managedBuildOn="false" name="Gnu Make Builder.Default" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.target.builder"/>
-							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.cpp.compiler.var.gcc-6.3.1-aarch64-elf.855880807" name="GCC C++ Compiler 6.3.1 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.cpp.compiler.var.gcc-6.3.1-aarch64-elf"/>
-							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.compiler.var.gcc-6.3.1-aarch64-elf.1860489867" name="GCC C Compiler 6.3.1 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.compiler.var.gcc-6.3.1-aarch64-elf"/>
-							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.assembler.var.gcc-6.3.1-aarch64-elf.1056224807" name="GCC Assembler 6.3.1 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.assembler.var.gcc-6.3.1-aarch64-elf"/>
+							<builder id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.target.builder.122295211" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.target.builder"/>
+							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.cpp.compiler.var.gcc-6.3.1-aarch64-elf.855880807" name="GCC C++ Compiler 6.3.1 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.cpp.compiler.var.gcc-6.3.1-aarch64-elf">
+								<inputType id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.compiler.input.1590227291" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.compiler.input"/>
+								<inputType id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.cpp.compiler.input.1954596379" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.compiler.var.gcc-6.3.1-aarch64-elf.1860489867" name="GCC C Compiler 6.3.1 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.compiler.var.gcc-6.3.1-aarch64-elf">
+								<inputType id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.compiler.input.1033609831" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.compiler.input"/>
+							</tool>
+							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.assembler.var.gcc-6.3.1-aarch64-elf.1056224807" name="GCC Assembler 6.3.1 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.assembler.var.gcc-6.3.1-aarch64-elf">
+								<inputType id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.assembler.input.1057744887" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.assembler.input"/>
+							</tool>
 							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.cpp.linker.var.gcc-6.3.1-aarch64-elf.1380052141" name="GCC C++ Linker 6.3.1 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.cpp.linker.var.gcc-6.3.1-aarch64-elf"/>
 							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.linker.var.gcc-6.3.1-aarch64-elf.640974900" name="GCC C Linker 6.3.1 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.c.linker.var.gcc-6.3.1-aarch64-elf"/>
 							<tool id="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.archiver.var.gcc-6.3.1-aarch64-elf.1977337163" name="GCC Archiver 6.3.1 [aarch64-elf]" superClass="com.arm.eclipse.cdt.managedbuild.ds5.gcc.baremetal.tool.archiver.var.gcc-6.3.1-aarch64-elf"/>
