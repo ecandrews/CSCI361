@@ -9,11 +9,11 @@ part_three:
 	MOV X7, #7 				// g multiplier
 	MOV X8, #0 				// g iterator
 	MOV X12, #8 			// offset
-	B .make_n				// branch to make_n
+	BPL .make_n				// always branch to make_n
 
 .make_n:					// calculate the n value to be used in the RNG
 	MUL X3, X4, X3			// multiply n by its multiplier
-	ADD X5, X5, #1			// increase iterator by one
+	ADDS X5, X5, #1			// increase iterator by one
 	CMP X5, #31				// compare iterator to 31
 	BEQ .make_g				// if result is equal, n calculation is done, branch to make_g
 	B .make_n				// otherwise branch back to beginning of make_n
@@ -27,7 +27,7 @@ part_three:
 	
 .fill_array:
 	SUB X1, X1, #1 			// subtract one from array length
-	SUB X3, X3, #1 			// make n prime
+	SUBS X3, X3, #1 		// make n prime
 	MOV X9, #0 				// make iterator X9
 	MOV X14, #0 			// make iterator for sort
 	B .generate_num			// branch to generate_num to begin generating random numbers for array
@@ -57,6 +57,7 @@ part_three:
 	MOV X5, #-1 			// make outer iterator
 	MOV X8, #0 				// make inner iterator
 	MOV X3, #0 				// make min variable
+	BICS X4, X3, X8			// bit clear X4
 	MOV X4, #0 				// make minIndex variable
 	ADD X1, X1, #1  		// add one to array length
 	B .outer_loop			// branch to outer loop
